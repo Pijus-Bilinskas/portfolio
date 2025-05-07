@@ -65,7 +65,7 @@ const BentoCard = ({src, title, description, button, buttonLink}) => {
 const Github = () => {
   return (
     <section className='bg-white w-[80%] pb-52 gap-8'>
-      <AnimatedTitle title="My Github <br /> and vercel websites" containerClass="text-black pt-15" />
+      <AnimatedTitle title="My Github <br /> and vercel projects" containerClass="text-black pt-15" />
 
       <div className='container mx-auto px-3 md:px-10'>
           <div className='px-5 py-32'>
@@ -115,6 +115,18 @@ const Github = () => {
                 description="This is a simple next.js eccomerce website integrated with strife to complete payments for the products"
                 button="Github"
                 buttonLink="https://github.com/Pijus-Bilinskas/LEcommerce"
+                />
+              </a>
+            </BentoTilt>
+            
+            <BentoTilt className='bento-tilt_1 row-span-1 md:col-span-1 md:ms-0 md:me-0'>
+              <a href="https://mini-games-beryl-iota.vercel.app/" target='_blank' rel='noopener noreferrer'>
+                <BentoCard
+                src="videos/github-4.mp4"
+                title={<>Mini Games</>}
+                description="This is a simple next.js eccomerce website integrated with strife to complete payments for the products"
+                button="Github"
+                buttonLink="https://github.com/Pijus-Bilinskas/mini-games"
                 />
               </a>
             </BentoTilt>

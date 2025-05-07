@@ -73,6 +73,7 @@ const About = () => {
           <p className="font-robert-medium   text-base md:text-2xl">Frontend Development: React.js, Next.js, React Native, TypeScript</p>
           <p className="font-robert-medium   text-base md:text-2xl">Backend Development: Node.js </p>
           <p className="font-robert-medium   text-base md:text-2xl">DataBases: MongoDB </p>
+          <p className="font-robert-medium   text-base md:text-2xl">Bilingual: Lithuanian, English </p>
         </div>
       </div>
 
