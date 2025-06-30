@@ -73,7 +73,7 @@ const Github = () => {
             <p className='max-w-md font-circular-web text-xl text-blue-500 opacity-50'>These are frontend projects the ones that have a github button are live on vercel others are not, also dont pay attenttion to the videos in the cards, they are just placeholders. plus its vibey.</p>
           </div>
       </div>
-
+      {/* Bento frontend */}
       <BentoTilt className='py-5'>
       <a href="https://awwards-pink.vercel.app/" target='_blank' rel='noopener noreferrer'>
         <BentoCard
@@ -119,25 +119,69 @@ const Github = () => {
               </a>
             </BentoTilt>
             
-            <BentoTilt className='bento-tilt_1 row-span-1 md:col-span-1 md:ms-0 md:me-0'>
-              <a href="https://mini-games-beryl-iota.vercel.app/" target='_blank' rel='noopener noreferrer'>
+
+          </div>
+
+          <BentoTilt className='py-5'>
+          <a href="https://mini-games-beryl-iota.vercel.app/" target='_blank' rel='noopener noreferrer'>
+          <BentoCard
+          src="videos/github-4.mp4"
+          title={<>Mini Games</>}
+          description="Here i tried to make some simple games using react hooks."
+          button="Github"
+          buttonLink="https://github.com/Pijus-Bilinskas/mini-games"
+          />
+          </a>
+          </BentoTilt>
+
+          <div className='grid h-[130vh] grid-cols-2 grid-rows-2 gap-8'>
+               <BentoTilt className='bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2'>
+            <a href="https://book-store-taupe-delta.vercel.app/" target='_blank' rel='noopener noreferrer'>
                 <BentoCard
-                src="videos/github-4.mp4"
-                title={<>Mini Games</>}
-                description="This is a simple next.js eccomerce website integrated with strife to complete payments for the products"
+                src="videos/github-5.mp4"
+                title={<>Book store/ecommerce</>}
                 button="Github"
-                buttonLink="https://github.com/Pijus-Bilinskas/mini-games"
+                buttonLink="https://github.com/Pijus-Bilinskas/book-store"
+                description="Here you can find a Ecommerce made using next.js. I've used typescript for type safety and used Appwrite as backend."
                 />
-              </a>
+            </a>
             </BentoTilt>
 
-            <BentoTilt className='bento-tilt_1 me-14 md:col-span-1 md:me-0'>
-              <div className='flex size-full flex-col justify-between bg-orange-300 p-5'>
+            <BentoTilt className='bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0'>
+            <a href="https://book-store-admin-dashboard.vercel.app/" target='_blank' rel='noopener noreferrer'>
+                <BentoCard
+                src='videos/github-2.mp4'
+                title={<>Book store/ecommerce admin dashboard</>}
+                button="Github"
+                buttonLink="https://github.com/Pijus-Bilinskas/book-store-admin-dashboard"
+                description="This was made using next.js and typescript for type safety. Appwrite is the backend of choice for this."
+                />
+            </a>
+            </BentoTilt>
+
+            <BentoTilt className='bento-tilt_1 me-40 row-span-1 md:col-span-1 md:ms-0 md:me-0'>
+                <a href="https://gamersupps-landing-page.vercel.app/" target='_blank' rel='noopener noreferrer'>
+                <BentoCard
+                src='videos/github-1.mp4'
+                title={<>Gamer supps landing page</>}
+                button="Github"
+                buttonLink="https://github.com/Pijus-Bilinskas/gamersupps-landing-page"
+                description=" created using next.js used tailwind css for styling also used shadcn for carousel components."
+                />
+            </a>
+            </BentoTilt>
+
+
+            <BentoTilt className='bento-tilt_1 me-40 row-span-1 md:col-span-2 md:ms-0 md:me-0'>
+                <div className='flex size-full flex-col justify-between bg-orange-300 p-5'>
                     <h1 className='bento-title max-w-64 text-black'>More coming soon...</h1>
                 </div>
             </BentoTilt>
-
           </div>
+
+
+
+
 
           <div className='container mx-auto px-3 md:px-10'>
               <div className='px-5 py-32'>
@@ -145,7 +189,7 @@ const Github = () => {
                 <p className='max-w-md font-circular-web text-xl text-blue-500 opacity-50'>These are backend projects , dont pay attenttion to the videos in the cards, they are just placeholders. plus its vibey.</p>
               </div>
           </div>
-
+          {/* Bento Backend */}
           <div className='grid h-[130vh] grid-cols-2 grid-rows-2 gap-8'>
             <BentoTilt className='bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2'>
             <a href="https://github.com/Pijus-Bilinskas/Reddit-inspired-backend" target='_blank' rel='noopener noreferrer'>
